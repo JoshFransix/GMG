@@ -158,6 +158,7 @@
         .discover-links {
           .btn-dark {
             font-size: 100%;
+            padding: 14px;
           }
         }
       }
@@ -273,6 +274,26 @@
 }
 
 @media screen and (max-width: 690px) {
+  header {
+    .logo {
+      flex: 3;
+    }
+
+    .home-btn {
+      flex: 1;
+    }
+  }
+
+  #prepare {
+    .prepare-content {
+      .prepare-text {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
   #tax {
     .card-container {
       grid-template-columns: 100%;
@@ -320,14 +341,65 @@
 }
 
 @media screen and (max-width: 400px) {
+  header {
+    .logo {
+      flex: 2;
+    }
+
+    .home-btn {
+      flex: 1;
+    }
+  }
   #discover {
+    // margin: 0;
     .discover-content {
       .discover-text {
+        .discover-links {
+          .learn-more {
+            display: none;
+          }
+        }
         h1 {
-          font-size: 20px;
+          font-size: 23px;
           line-height: 1.4;
         }
       }
     }
+  }
+
+  #prepare {
+    margin-top: 3rem;
+
+    .prepare-content {
+      .prepare-text {
+        h1 {
+          font-size: 23px;
+        }
+
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  #tax {
+    h1 {
+      margin-left: 1rem;
+    }
+    .card-container {
+      .card {
+        width: 90%;
+        margin-left: 1rem;
+
+        h4 {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #banner {
+    margin-left: 1rem;
   }
 }

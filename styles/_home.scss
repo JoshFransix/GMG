@@ -116,12 +116,13 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.prepare-text h4 {
+.prepare-text p {
   text-align: justify;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 24px;
   color: #202030;
   opacity: 0.6;
+  font-weight: bold;
   margin-bottom: 2rem;
   width: 91%;
   transition: all 0.3s ease-in-out;
@@ -236,10 +237,9 @@ header {
 }
 
 .banner-text h1 {
-  // width: 100%;
+  line-height: 33px;
   font-size: 39.81px;
   margin-bottom: 2rem;
-  // text-align: justify;
 }
 .banner-text p {
   // width: 100%;
@@ -305,6 +305,7 @@ header {
 
 #footer .about-us h5 {
   margin-top: 2rem;
+  line-height: 23px;
 }
 
 #footer .socials {
