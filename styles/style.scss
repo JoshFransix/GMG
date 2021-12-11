@@ -32,6 +32,22 @@ img {
   pointer-events: none;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+  transition: 0.6s;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--primary-color), #ddd);
+  border-radius: 6px;
+  transition: 0.6s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, var(--primary-color));
+  transition: 0.6s;
+}
+
 .btn-dark {
   padding: 17px 50px;
   background: var(--primary-color);
