@@ -5,7 +5,7 @@
 
 .steps {
   position: fixed;
-  top: 80px;
+  top: 75px;
   left: 0;
   background: transparent;
   /* border-right: 2px solid #000; */
@@ -26,9 +26,13 @@
   height: 70px;
   padding: 1rem 3rem;
   position: absolute;
-  top: 235px;
+  top: 35%;
   left: 0;
   transition: all 0.2s ease-in-out;
+}
+
+.steps .step-2-banner {
+  top: 50% !important;
 }
 
 .steps .step-1-banner:hover,
