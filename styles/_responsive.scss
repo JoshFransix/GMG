@@ -118,9 +118,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    width: 100vw;
-  }
   #discover {
     .discover-content {
       .discover-text {
@@ -331,6 +328,7 @@
   }
 
   #step-1 {
+    overflow-x: hidden;
     margin: 2rem 0rem 0rem 7rem;
     // transition: all 0.3s ease-in-out;
     // width: 80%;
@@ -354,6 +352,7 @@
     }
   }
   #step-2 {
+    overflow-x: hidden;
     margin: 2rem 0rem 0rem 7rem;
     // transition: all 0.3s ease-in-out;
     // width: 80%;
@@ -604,5 +603,10 @@
         }
       }
     }
+  }
+
+  #step-1,
+  #step-2 {
+    margin: 1.5rem 0rem 0rem 6rem;
   }
 }
